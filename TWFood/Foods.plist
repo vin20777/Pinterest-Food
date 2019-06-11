@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Caption</key>
+		<string>Fried Chicken - 鹽酥雞</string>
+		<key>Comment</key>
+		<string>Is Ray hinting that perhaps it&apos;s Vicki&apos;s turn next year?</string>
+		<key>Food</key>
+		<string>SaltyFriedChicken</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Stinky Tofu - 臭豆腐</string>
+		<key>Comment</key>
+		<string>Brian and Matt meet for the very first time.</string>
+		<key>Food</key>
+		<string>StinkyTofu</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Oden - 關東煮</string>
+		<key>Comment</key>
+		<string>There are so many happy people at RWDevCon - it&apos;s amazing.</string>
+		<key>Food</key>
+		<string>KantoCooking</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Braised Pork Over Rice - 滷肉飯</string>
+		<key>Comment</key>
+		<string>The moment it all became very real. The conference really was happening!</string>
+		<key>Food</key>
+		<string>RuRoarRice</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Xiaolongbao - 小籠包</string>
+		<key>Comment</key>
+		<string>Without you we wouldn&apos;t have been able to put on this amazing conference.</string>
+		<key>Food</key>
+		<string>XiaoLongBoa</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Beef Noodles - 牛肉麵</string>
+		<key>Comment</key>
+		<string>The Avengers certainly have nothing on this lot!</string>
+		<key>Food</key>
+		<string>BeefNoodle</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Oyster Omelet - 蚵仔煎</string>
+		<key>Comment</key>
+		<string>&quot;Matthijs, stop going on about architecture, we&apos;re trying to eat!&quot;</string>
+		<key>Food</key>
+		<string>OysterOmelet</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Pearl Milk Tea - 珍珠奶茶</string>
+		<key>Comment</key>
+		<string>Mic and Greg grab a quick bite to eat between WatchKit sessions.</string>
+		<key>Food</key>
+		<string>PearlMilkTea</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Chicken Fillet - 雞排</string>
+		<key>Comment</key>
+		<string>Mic and Greg grab a quick bite to eat between WatchKit sessions.</string>
+		<key>Food</key>
+		<string>ChickenFillet</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Steamed Sandwich -  刈包</string>
+		<key>Comment</key>
+		<string>Mic and Greg grab a quick bite to eat between WatchKit sessions.</string>
+		<key>Food</key>
+		<string>CutBoa</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Iron-hard Preserved Egg - 鐵蛋</string>
+		<key>Comment</key>
+		<string>Mic and Greg grab a quick bite to eat between WatchKit sessions.</string>
+		<key>Food</key>
+		<string>IronEgg</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Pineapple Cake - 鳳梨酥</string>
+		<key>Comment</key>
+		<string>Mic and Greg grab a quick bite to eat between WatchKit sessions.</string>
+		<key>Food</key>
+		<string>PineAppleCake</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Meatball Soup - 丸子湯</string>
+		<key>Comment</key>
+		<string>Mic and Greg grab a quick bite to eat between WatchKit sessions.</string>
+		<key>Food</key>
+		<string>MeatBallSoup</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Chinese Medicine Soup - 藥膳排骨</string>
+		<key>Comment</key>
+		<string>Mic and Greg grab a quick bite to eat between WatchKit sessions.</string>
+		<key>Food</key>
+		<string>ChineseMedSoup</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Braised Dishes - 滷味</string>
+		<key>Comment</key>
+		<string>Mic and Greg grab a quick bite to eat between WatchKit sessions.</string>
+		<key>Food</key>
+		<string>BraisedDishes</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Pig Blood Cake - 豬血糕</string>
+		<key>Comment</key>
+		<string>Mic and Greg grab a quick bite to eat between WatchKit sessions.</string>
+		<key>Food</key>
+		<string>PigBlood</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Scallion Pancake - 蔥油煎餅</string>
+		<key>Comment</key>
+		<string>Mic and Greg grab a quick bite to eat between WatchKit sessions.</string>
+		<key>Food</key>
+		<string>ScallionPancake</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Sausage With Sticky Rice - 大腸包小腸</string>
+		<key>Comment</key>
+		<string>Mic and Greg grab a quick bite to eat between WatchKit sessions.</string>
+		<key>Food</key>
+		<string>SausageWithStickyRice</string>
+	</dict>
+</array>
+</plist>

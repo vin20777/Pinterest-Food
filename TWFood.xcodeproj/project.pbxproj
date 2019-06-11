@@ -7,64 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		831DBAEC1FE9078200B23D05 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831DBAEB1FE9078200B23D05 /* DetailViewController.swift */; };
+		831DBAEE1FE9FE6F00B23D05 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831DBAED1FE9FE6F00B23D05 /* CustomViewController.swift */; };
 		837994C41FE501DF004DD6B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837994C31FE501DF004DD6B6 /* AppDelegate.swift */; };
-		837994C61FE501DF004DD6B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837994C51FE501DF004DD6B6 /* ViewController.swift */; };
 		837994C91FE501DF004DD6B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837994C71FE501DF004DD6B6 /* Main.storyboard */; };
 		837994CB1FE501DF004DD6B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837994CA1FE501DF004DD6B6 /* Assets.xcassets */; };
 		837994CE1FE501DF004DD6B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837994CC1FE501DF004DD6B6 /* LaunchScreen.storyboard */; };
-		837994D91FE501DF004DD6B6 /* TWFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837994D81FE501DF004DD6B6 /* TWFoodTests.swift */; };
-		837994E41FE501DF004DD6B6 /* TWFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837994E31FE501DF004DD6B6 /* TWFoodUITests.swift */; };
+		837995011FE6483B004DD6B6 /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837995001FE6483B004DD6B6 /* PinterestLayout.swift */; };
+		837995051FE64983004DD6B6 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837995041FE64983004DD6B6 /* Food.swift */; };
+		837995071FE64D76004DD6B6 /* Foods.plist in Resources */ = {isa = PBXBuildFile; fileRef = 837995061FE64D76004DD6B6 /* Foods.plist */; };
+		837995091FE64E95004DD6B6 /* FoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837995081FE64E95004DD6B6 /* FoodCollectionViewCell.swift */; };
+		83F873931FE753900089D59D /* TWFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F873921FE753900089D59D /* TWFoodViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		837994D51FE501DF004DD6B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 837994B81FE501DF004DD6B6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 837994BF1FE501DF004DD6B6;
-			remoteInfo = TWFood;
-		};
-		837994E01FE501DF004DD6B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 837994B81FE501DF004DD6B6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 837994BF1FE501DF004DD6B6;
-			remoteInfo = TWFood;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		831DBAEB1FE9078200B23D05 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		831DBAED1FE9FE6F00B23D05 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 		837994C01FE501DF004DD6B6 /* TWFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		837994C31FE501DF004DD6B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		837994C51FE501DF004DD6B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		837994C81FE501DF004DD6B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		837994CA1FE501DF004DD6B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		837994CD1FE501DF004DD6B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		837994CF1FE501DF004DD6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		837994D41FE501DF004DD6B6 /* TWFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		837994D81FE501DF004DD6B6 /* TWFoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWFoodTests.swift; sourceTree = "<group>"; };
-		837994DA1FE501DF004DD6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		837994DF1FE501DF004DD6B6 /* TWFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		837994E31FE501DF004DD6B6 /* TWFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWFoodUITests.swift; sourceTree = "<group>"; };
-		837994E51FE501DF004DD6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837995001FE6483B004DD6B6 /* PinterestLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		837995041FE64983004DD6B6 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		837995061FE64D76004DD6B6 /* Foods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Foods.plist; sourceTree = "<group>"; };
+		837995081FE64E95004DD6B6 /* FoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewCell.swift; sourceTree = "<group>"; };
+		83F873921FE753900089D59D /* TWFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWFoodViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		837994BD1FE501DF004DD6B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		837994D11FE501DF004DD6B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		837994DC1FE501DF004DD6B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				837994C21FE501DF004DD6B6 /* TWFood */,
-				837994D71FE501DF004DD6B6 /* TWFoodTests */,
-				837994E21FE501DF004DD6B6 /* TWFoodUITests */,
 				837994C11FE501DF004DD6B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				837994C01FE501DF004DD6B6 /* TWFood.app */,
-				837994D41FE501DF004DD6B6 /* TWFoodTests.xctest */,
-				837994DF1FE501DF004DD6B6 /* TWFoodUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,31 +67,35 @@
 			isa = PBXGroup;
 			children = (
 				837994C31FE501DF004DD6B6 /* AppDelegate.swift */,
-				837994C51FE501DF004DD6B6 /* ViewController.swift */,
+				831DBAED1FE9FE6F00B23D05 /* CustomViewController.swift */,
+				83F873921FE753900089D59D /* TWFoodViewController.swift */,
+				831DBAEB1FE9078200B23D05 /* DetailViewController.swift */,
+				837995081FE64E95004DD6B6 /* FoodCollectionViewCell.swift */,
 				837994C71FE501DF004DD6B6 /* Main.storyboard */,
 				837994CA1FE501DF004DD6B6 /* Assets.xcassets */,
 				837994CC1FE501DF004DD6B6 /* LaunchScreen.storyboard */,
 				837994CF1FE501DF004DD6B6 /* Info.plist */,
+				837995061FE64D76004DD6B6 /* Foods.plist */,
+				837995031FE64968004DD6B6 /* Model */,
+				837994FF1FE6483B004DD6B6 /* Layouts */,
 			);
 			path = TWFood;
 			sourceTree = "<group>";
 		};
-		837994D71FE501DF004DD6B6 /* TWFoodTests */ = {
+		837994FF1FE6483B004DD6B6 /* Layouts */ = {
 			isa = PBXGroup;
 			children = (
-				837994D81FE501DF004DD6B6 /* TWFoodTests.swift */,
-				837994DA1FE501DF004DD6B6 /* Info.plist */,
+				837995001FE6483B004DD6B6 /* PinterestLayout.swift */,
 			);
-			path = TWFoodTests;
+			path = Layouts;
 			sourceTree = "<group>";
 		};
-		837994E21FE501DF004DD6B6 /* TWFoodUITests */ = {
+		837995031FE64968004DD6B6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				837994E31FE501DF004DD6B6 /* TWFoodUITests.swift */,
-				837994E51FE501DF004DD6B6 /* Info.plist */,
+				837995041FE64983004DD6B6 /* Food.swift */,
 			);
-			path = TWFoodUITests;
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,42 +118,6 @@
 			productReference = 837994C01FE501DF004DD6B6 /* TWFood.app */;
 			productType = "com.apple.product-type.application";
 		};
-		837994D31FE501DF004DD6B6 /* TWFoodTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 837994EB1FE501DF004DD6B6 /* Build configuration list for PBXNativeTarget "TWFoodTests" */;
-			buildPhases = (
-				837994D01FE501DF004DD6B6 /* Sources */,
-				837994D11FE501DF004DD6B6 /* Frameworks */,
-				837994D21FE501DF004DD6B6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				837994D61FE501DF004DD6B6 /* PBXTargetDependency */,
-			);
-			name = TWFoodTests;
-			productName = TWFoodTests;
-			productReference = 837994D41FE501DF004DD6B6 /* TWFoodTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		837994DE1FE501DF004DD6B6 /* TWFoodUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 837994EE1FE501DF004DD6B6 /* Build configuration list for PBXNativeTarget "TWFoodUITests" */;
-			buildPhases = (
-				837994DB1FE501DF004DD6B6 /* Sources */,
-				837994DC1FE501DF004DD6B6 /* Frameworks */,
-				837994DD1FE501DF004DD6B6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				837994E11FE501DF004DD6B6 /* PBXTargetDependency */,
-			);
-			name = TWFoodUITests;
-			productName = TWFoodUITests;
-			productReference = 837994DF1FE501DF004DD6B6 /* TWFoodUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -188,22 +125,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = VTStudio;
 				TargetAttributes = {
 					837994BF1FE501DF004DD6B6 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
-					};
-					837994D31FE501DF004DD6B6 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 837994BF1FE501DF004DD6B6;
-					};
-					837994DE1FE501DF004DD6B6 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 837994BF1FE501DF004DD6B6;
 					};
 				};
 			};
@@ -221,8 +149,6 @@
 			projectRoot = "";
 			targets = (
 				837994BF1FE501DF004DD6B6 /* TWFood */,
-				837994D31FE501DF004DD6B6 /* TWFoodTests */,
-				837994DE1FE501DF004DD6B6 /* TWFoodUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,20 +161,7 @@
 				837994CE1FE501DF004DD6B6 /* LaunchScreen.storyboard in Resources */,
 				837994CB1FE501DF004DD6B6 /* Assets.xcassets in Resources */,
 				837994C91FE501DF004DD6B6 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		837994D21FE501DF004DD6B6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		837994DD1FE501DF004DD6B6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				837995071FE64D76004DD6B6 /* Foods.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,41 +172,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				837994C61FE501DF004DD6B6 /* ViewController.swift in Sources */,
+				837995091FE64E95004DD6B6 /* FoodCollectionViewCell.swift in Sources */,
+				831DBAEE1FE9FE6F00B23D05 /* CustomViewController.swift in Sources */,
+				837995011FE6483B004DD6B6 /* PinterestLayout.swift in Sources */,
+				837995051FE64983004DD6B6 /* Food.swift in Sources */,
+				831DBAEC1FE9078200B23D05 /* DetailViewController.swift in Sources */,
+				83F873931FE753900089D59D /* TWFoodViewController.swift in Sources */,
 				837994C41FE501DF004DD6B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		837994D01FE501DF004DD6B6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				837994D91FE501DF004DD6B6 /* TWFoodTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		837994DB1FE501DF004DD6B6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				837994E41FE501DF004DD6B6 /* TWFoodUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		837994D61FE501DF004DD6B6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 837994BF1FE501DF004DD6B6 /* TWFood */;
-			targetProxy = 837994D51FE501DF004DD6B6 /* PBXContainerItemProxy */;
-		};
-		837994E11FE501DF004DD6B6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 837994BF1FE501DF004DD6B6 /* TWFood */;
-			targetProxy = 837994E01FE501DF004DD6B6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		837994C71FE501DF004DD6B6 /* Main.storyboard */ = {
@@ -329,6 +218,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -336,6 +226,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -363,7 +254,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -386,6 +277,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -393,6 +285,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -414,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -430,10 +323,10 @@
 				DEVELOPMENT_TEAM = 8T79SY5AA9;
 				INFOPLIST_FILE = TWFood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.VTStudio.TWFood;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vtsutdio.twfood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -445,76 +338,10 @@
 				DEVELOPMENT_TEAM = 8T79SY5AA9;
 				INFOPLIST_FILE = TWFood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.VTStudio.TWFood;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vtsutdio.twfood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		837994EC1FE501DF004DD6B6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8T79SY5AA9;
-				INFOPLIST_FILE = TWFoodTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.VTStudio.TWFoodTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWFood.app/TWFood";
-			};
-			name = Debug;
-		};
-		837994ED1FE501DF004DD6B6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8T79SY5AA9;
-				INFOPLIST_FILE = TWFoodTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.VTStudio.TWFoodTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWFood.app/TWFood";
-			};
-			name = Release;
-		};
-		837994EF1FE501DF004DD6B6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8T79SY5AA9;
-				INFOPLIST_FILE = TWFoodUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.VTStudio.TWFoodUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TWFood;
-			};
-			name = Debug;
-		};
-		837994F01FE501DF004DD6B6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8T79SY5AA9;
-				INFOPLIST_FILE = TWFoodUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.VTStudio.TWFoodUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TWFood;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -535,24 +362,6 @@
 			buildConfigurations = (
 				837994E91FE501DF004DD6B6 /* Debug */,
 				837994EA1FE501DF004DD6B6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		837994EB1FE501DF004DD6B6 /* Build configuration list for PBXNativeTarget "TWFoodTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				837994EC1FE501DF004DD6B6 /* Debug */,
-				837994ED1FE501DF004DD6B6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		837994EE1FE501DF004DD6B6 /* Build configuration list for PBXNativeTarget "TWFoodUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				837994EF1FE501DF004DD6B6 /* Debug */,
-				837994F01FE501DF004DD6B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
